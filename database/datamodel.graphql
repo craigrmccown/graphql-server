@@ -1,3 +1,9 @@
+type Vote {
+  id: ID! @unique
+  link: Link!
+  user: User!
+}
+
 type Link {
   id: ID! @unique
   description: String!
